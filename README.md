@@ -41,3 +41,4 @@ $ kubectl get no -o json | jq '.items[].metadata.labels'
 
 Currently the build process must be run on the ARM server. In addition, before running the build process
 Dockerfile.arm must be copied into Dockerfile
+
