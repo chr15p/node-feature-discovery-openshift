@@ -1,5 +1,5 @@
 # Build node feature discovery
-FROM registry.access.redhat.com/ubi9/go-toolset:1.20.10-6 as builder
+FROM registry.access.redhat.com/ubi9/go-toolset:1.21.11-2.1720624888 as builder
 
 
 WORKDIR /go/node-feature-discovery
